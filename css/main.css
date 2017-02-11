@@ -1,0 +1,28 @@
+.text-vertical-center {
+	display: table-cell;
+	text-align: center;
+    vertical-align: middle;
+}
+
+/* Top Section */
+.top {
+	display: table;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: #333c4a;
+}
+
+	/* Top Section Text */
+	.header-text {
+		color: #fff;
+		font-size: 3.5em;
+	}
+
+	.sub {
+		color: #fff;
+		opacity: 0.2;
+		margin-bottom: -20px;
+		font-family: 'Merriweather', sans-serif;
+		font-weight: 400;
+	}

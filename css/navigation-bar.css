@@ -1,0 +1,84 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 0px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.navbar {
+    border: none;
+    background-color: #657c9e;
+}
+
+/*  Nav Brand */
+.navbar-default .navbar-brand {
+    font-size: 2em;
+    font-family: 'Merriweather', sans-serif;
+    color: #fff;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+}
+
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    background-color: #333c4a;
+    color: #fff;
+}
+
+.navbar-brand {
+    float: left;
+    background-color: #45566f;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* LI */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    background-color: #657c9e;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 0.25s ease-in-out;
+    font-size: 1.2em;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #333c4a;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #566c8d;
+}
