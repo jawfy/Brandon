@@ -10,7 +10,9 @@
 	position: relative;
 	height: 100%;
 	width: 100%;
-	background-color: #333c4a;
+	background-image: url(../bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 	/* Top Section Text */
@@ -26,3 +28,35 @@
 		font-family: 'Merriweather', sans-serif;
 		font-weight: 400;
 	}
+
+/* Section Transiton */
+.btn-section {
+	margin-top: 20px;
+	background-color: #657c9e;
+	border: none;
+	border-radius: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #fff;
+	width: 50%;
+	transition: all 0.25s ease-in-out;
+}
+
+.btn-section:active,
+.btn-section:hover,
+.btn-section:focus {
+	background-color: #333c4a;
+	color: #fff;
+}
+
+/* Assignments Section */
+.assignments {
+	display: table;
+	margin-top: -20px;
+	height: 35%;
+	color: #fff;
+	width: 100%;
+	background-color: #9babc3;
+}
