@@ -55,6 +55,7 @@ body {
 
 .navbar-brand {
     float: left;
+    font-weight: 900;
     background-color: #45566f;
     padding-left: 50px;
     padding-right: 50px;
